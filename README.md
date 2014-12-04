@@ -1,2 +1,2 @@
 
-This is a script that merged elemenst of inconstant xml files into printout
+This is a script that merged elements of inconstant xml files into printout
