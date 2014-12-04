@@ -21,6 +21,7 @@ my $TEXT_REPLACE_TOKEN = "TEXT_ONLY";
 # elements and subelements. The goal is to print a map of all XML elements that are being used
 # across a large number of XML files based on a common schema. Unfortunately it lacks good 
 # documentation, however it is a good example of XML processing with perl.
+#
 
 opendir( DIR, $XML_DIR ) or die "can't oper $XML_DIR";
 while ( defined( $file = readdir(DIR) ) ) {
