@@ -201,7 +201,8 @@ sub mergeArrays {
 		}
 	}
 
-    # A hash array may contain any number of child elements (keys)
+    # A hash array my contain any number of child elements (keys)
+
 	if ( $type eq "HASH" ) {
 		if ( $hashKey ne $NO_HASH_KEY ) {
 	
